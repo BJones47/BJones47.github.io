@@ -221,13 +221,11 @@ h1,h2,h3,h4,h5
         text-align: center;
     }
 
-#work .media
-    {
-      margin-top: 30px;
+    #work .media {
+        margin-top: 30px;
     }
-	
-#work .media .fa
-    {
+    
+    #work .media .fa, #work .media .unity-icon {
         border: 2px solid #ffffff;
         border-radius: 50%;
         color: #D43F52;
@@ -240,13 +238,13 @@ h1,h2,h3,h4,h5
         vertical-align: middle;
         transition: all 0.4s ease-in;
     }
-#work .media .fa:hover
-    {
+    
+    #work .media .fa:hover, #work .media .unity-icon:hover {
         background: #ffffff;
         cursor: pointer;
     }
-#work .media .media-heading
-    {
+    
+    #work .media .media-heading, #work .media .unity-heading {
         font-weight: 600;
         font-size: 20px;
         padding-bottom: 10px;
